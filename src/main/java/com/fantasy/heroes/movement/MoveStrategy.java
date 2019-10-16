@@ -1,4 +1,4 @@
-package com.fantasy.heroes;
+package com.fantasy.heroes.movement;
 
 public interface MoveStrategy {
 

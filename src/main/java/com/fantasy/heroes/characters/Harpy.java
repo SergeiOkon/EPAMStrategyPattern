@@ -1,7 +1,10 @@
-package com.fantasy.heroes;
+package com.fantasy.heroes.characters;
 
-public class Harpy extends Hero{
+import com.fantasy.heroes.Hero;
+import com.fantasy.heroes.movement.FlyStrategy;
+
+public class Harpy extends Hero {
     public Harpy(String name) {
-        super(name);
+        super(name, new FlyStrategy());
     }
 }

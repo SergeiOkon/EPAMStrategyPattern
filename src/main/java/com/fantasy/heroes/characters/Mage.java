@@ -1,7 +1,10 @@
-package com.fantasy.heroes;
+package com.fantasy.heroes.characters;
 
-public class Mage extends Hero{
+import com.fantasy.heroes.Hero;
+import com.fantasy.heroes.movement.WalkStrategy;
+
+public class Mage extends Hero {
     public Mage(String name) {
-        super(name);
+        super(name, new WalkStrategy());
     }
 }
